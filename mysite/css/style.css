@@ -1,0 +1,44 @@
+
+/* css reset */
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, dl, dd, form, input, textarea, select {padding:0; margin: 0;}
+li {list-style:none;}
+img {border:none; vertical-align:top;}
+a {text-decoration: none;}
+a.hover {text-decoration: underline;}
+
+textarea{resize:none; overflow:auto;}
+
+/*table css reset*/
+th, td{padding:0;}
+table{border-collapse:collapse;}
+
+/*clear float*/
+.clear{zoom:1;} /*支持IE6/7；IE6/7 不支持after伪类。在IE6/7上如果父类定义了宽度，不用清浮动。*/
+.clear:after{content:"";display:block;clear:both} /*支持IE6/7外其它浏览器。clear只对块级元素起作用。*/
+
+body{font:13px/22px Verdana, 微软雅黑, "Microsoft YaHei", Helvetica, Arial;}
+
+
+#header{ /*border-top:2px solid #dd5862; */background-color:#f2f2f2}
+#header-ct{ width:960px; height:50px; margin:0 auto; min-width:960px;}
+
+
+#header-ct .logo{ float:left; line-height:50px;}
+#header-ct .logo img{ width:30px; height:36px; vertical-align: middle; }
+
+#header-ct #nav{float:left;}
+#header-ct #nav li{float:left; line-height:50px;margin-left:25px;}
+#header-ct #nav li a{color:#2d2d2d; font-size:16px;}
+#header-ct #nav li a:hover{color:#dd5862}
+
+#header-ct #login{float:right;}
+#header-ct #login li{float:right; line-height:50px;margin-left:25px;}
+#header-ct #login li a{color:#2d2d2d; font-size:16px;}
+#header-ct #login li a:hover{color:#dd5862}
+
+#header-ct .search{float:right; }
+#header-ct .search form{line-height:50px;}
+
+
+
+#slider{width:960px; height: 324px; margin:30px auto; background: gray;}
