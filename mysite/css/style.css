@@ -36,8 +36,9 @@ body{font:13px/22px Verdana, 微软雅黑, "Microsoft YaHei", Helvetica, Arial;}
 #header-ct #login li a{color:#2d2d2d; font-size:16px;}
 #header-ct #login li a:hover{color:#dd5862}
 
-#header-ct .search{float:right; }
-#header-ct .search form{line-height:50px;}
+#header-ct .search{float:right; width:287px;height:39px;background:url(../images/search.png) no-repeat; margin-top:6px;}
+#header-ct .search .text{float:left; width:228px; height:39px; border:none; outline:none;padding:0 10px;}
+#header-ct .search .btn {float:right; width:39px; height:39px; border:none; background:none;}
 
 
 
